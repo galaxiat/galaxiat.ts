@@ -24,6 +24,23 @@ galaxiat.ts [Node.js](https://nodejs.org) package allows you to easily interact 
 npm install galaxiat.ts
 ```
 
+## Example 
+### Create Galaxiat User
+```ts
+import { GalaxiatClient, User } from "galaxiat.ts"
+
+const Client = new GalaxiatClient("dev", "v0");
+(async () => {
+  const version = Client.dataVersion
+  console.log(await User.Create<typeof version>(Client, {
+    email : "blue@galaxiatapp.com",
+    password : "DEMOBlueIsBlueDEMO",
+    username : "blue",
+    username_at : "blue"
+  }))
+})()
+```
+
 ## Links
 
 - [Galaxiat](https://galaxiatapp.com/)
