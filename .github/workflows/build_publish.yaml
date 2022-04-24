@@ -15,7 +15,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-      - run: npm version ${{ steps.get_version.outputs.version-without-v }} --no-git-tag-version
+      - run: npm version ${{ steps.get_version.outputs.version-without-v }} --no-git-tag-version --allow-same-version
       - run: make build
       - run: make publish
         env:
