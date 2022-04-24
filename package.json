@@ -1,6 +1,6 @@
 {
   "name": "galaxiat.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official nodejs package to interact with Galaxiat !",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
