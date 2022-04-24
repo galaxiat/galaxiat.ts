@@ -1,0 +1,30 @@
+{
+  "name": "galaxiat.ts",
+  "version": "1.0.0",
+  "description": "Official nodejs package to interact with Galaxiat !",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galaxiat/galaxiat.ts.git"
+  },
+  "author": "Warstrolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galaxiat/galaxiat.ts/issues"
+  },
+  "homepage": "https://github.com/galaxiat/galaxiat.ts#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.6",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1"
+  }
+}
