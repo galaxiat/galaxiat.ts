@@ -21,13 +21,13 @@ export const UsersEndpointsMap = {
     "v0": ["POST", "/users/", [], [], ["username", "username_at", "password", "email"]]
   },
   "edit": {
-    "v0": ["PUT", "/users/@me", [], [], []]
+    "v0": ["PUT", "/users/@me", [], ["authorization"], ["email", "username", "username_at", "password"]]
   },
   "get": {
     "v0": ["GET", "/users/{username}",["username"], [] , []]
   },
   "login": {
-    "v0": ["GET", "/users/", [], [], []]
+    "v0": ["GET", "/users/", [], [], ["email", "password"]]
   },
   "send_check_mail": {
     "v0": ["POST", "/users/@me/send_check_mail", [], [], []]

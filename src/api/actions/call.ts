@@ -6,6 +6,8 @@ export async function CallAPI(req: RequestElements): Promise<APIResponse> {
     method: req.method,
     headers: req.headers,
   })
+  // console.log(req.headers.get("authorization"))
+  // console.log(res)
   const response = await res.json()
   return (response as APIResponse)
 }
