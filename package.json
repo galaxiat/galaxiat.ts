@@ -1,11 +1,17 @@
 {
   "name": "galaxiat.ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official nodejs package to interact with Galaxiat !",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
+  ],
+  "keywords": [
+    "Galaxiat",
+    "feed",
+    "discovery",
+    "api"
   ],
   "scripts": {
     "build": "tsc"
