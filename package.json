@@ -21,7 +21,7 @@
     "url": "git+https://github.com/galaxiat/galaxiat.ts.git"
   },
   "author": "Warstrolo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/galaxiat/galaxiat.ts/issues"
   },
