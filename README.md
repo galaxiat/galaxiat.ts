@@ -52,4 +52,4 @@ const Client = new GalaxiatClient("dev", "v0");
 Before creating an issue, please ensure that it hasn't already been reported/suggested.  
 
 ## License
-Software is under [MIT](./LICENSE) license
+Software is under [MIT](./LICENSE.md) license
