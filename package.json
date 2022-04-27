@@ -1,7 +1,7 @@
 {
   "name": "galaxiat.ts",
   "version": "1.0.2",
-  "description": "Official nodejs package to interact with Galaxiat !",
+  "description": "galaxiat.ts Node.JS package allows you to easily interact with the Galaxiat API.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
