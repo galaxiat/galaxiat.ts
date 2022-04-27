@@ -14,7 +14,7 @@
 
 ## About
 
-galaxiat.ts [Node.js](https://nodejs.org) package allows you to easily interact with the [Galaxiat API](https://galaxiatapp.com)
+galaxiat.ts [Node.js](https://nodejs.org) package allows you to easily interact with the [Galaxiat API](https://galaxiatapp.com).
 
 ## Installation
 
@@ -26,6 +26,8 @@ npm install galaxiat.ts
 
 ## Example 
 ### Create Galaxiat User
+
+`src/index.ts`
 ```ts
 import { GalaxiatClient, User } from "galaxiat.ts"
 
@@ -49,5 +51,5 @@ const Client = new GalaxiatClient("dev", "v0");
 
 Before creating an issue, please ensure that it hasn't already been reported/suggested.  
 
-## License 
-MIT 
+## License
+Software is under [MIT](./LICENSE) license
