@@ -19,6 +19,7 @@ interface APIUserGetV0 {
   password: string
 }
 interface APIUserGetV0Res {
+  id : number,
   username: string,
   username_at: string,
   coins: bigint,
