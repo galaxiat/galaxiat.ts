@@ -19,6 +19,7 @@ interface APIUserEditV0 {
   password: string
 }
 interface APIUserEditV0Res {
+  id : string,
   username: string,
   username_at: string,
   coins: bigint,
