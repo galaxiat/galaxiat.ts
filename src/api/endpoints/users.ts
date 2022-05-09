@@ -24,7 +24,7 @@ export const UsersEndpointsMap = {
     "v0": ["PUT", "/users/@me", [], ["authorization"], ["email", "username", "username_at", "password"]]
   },
   "get": {
-    "v0": ["GET", "/users/{username}",["username"], [] , []]
+    "v0": ["GET", "/users/{userid}",["userid"], [] , []]
   },
   "login": {
     "v0": ["GET", "/users/", [], [], ["email", "password"]]
